@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    <div class="container">
+
+        <!-- header -->
+        <header>
+            <ul class="options_list">
+                <li class="options_list_item options_list_item1"></li>
+                <li class="options_list_item options_list_item2"></li>
+                <li class="options_list_item options_list_item3"></li>
+            </ul>
+            <label class="theme_button">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </header>
+
+        <!-- display -->
+        <div class="input_area">
+            <input type="text" id="input_history" disabled>
+            <input type="text" id="input_value" disabled>
+        </div>
+
+        <!-- button panel -->
+        <div class="panel_area">
+            <button id="C" class="operator">C</button>
+            <button id="plusMinus" class="operator">&plusmn;</button>
+            <button id="percent" class="operator ops" value="%">%</button>
+            <button id="divide" class="operator ops" value="/">&div;</button>
+            <button id="seven" class="number" value="7">7</button>
+            <button id="eight" class="number" value="8">8</button>
+            <button id="nine" class="number" value="9">9</button>
+            <button id="multiply" class="operator ops" value="*">&times;</button>
+            <button id="four" class="number" value="4">4</button>
+            <button id="five" class="number" value="5">5</button>
+            <button id="six" class="number" value="6">6</button>
+            <button id="minus" class="operator ops" value="-">&minus;</button>
+            <button id="one" class="number" value="1">1</button>
+            <button id="two" class="number" value="2">2</button>
+            <button id="three" class="number" value="3">3</button>
+            <button id="plus" class="operator ops" value="+">&plus;</button>
+            <button id="zero" class="number" value="0">0</button>
+            <button id="decimal" class="number" value=".">.</button>
+            <button class="hidden"></button>
+            <button id="equal" class="operator">&equals;</button>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
